@@ -1,0 +1,15 @@
+
+{% block content %}
+
+    {{bokeh_div|safe}}
+
+{% endblock %}
+
+
+{% block scripts %}
+
+    {{ js_resources|safe }}
+    {{ css_resources|safe }}
+    {{ bokeh_script|safe }}
+
+{% endblock %}
