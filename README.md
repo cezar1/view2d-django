@@ -34,9 +34,11 @@ Install the libraries:
 ```
 pip install -r requirements.txt
 ```
+Note: If this step fails because of the Pillow library, then run "sudo apt-get install libjpeg-dev zlib1g-dev" and the above pip command again.
 Run the local django server:
 ```
-python view2d/manage.py runserver
+cd view2d
+python manage.py runserver
 ```
 Navigate to the following URL with your browser:
 ```html
