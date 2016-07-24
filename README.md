@@ -4,7 +4,7 @@
 
 Plots the current position of the International Space Station, similar to websites like http://www.isstracker.com or http://iss.astroviewer.net. 
 
-![-screenshot of view2d-](https://github.com/artur-scholz/view2d-django/docs/screenshot.png "screenshot")
+![-screenshot of view2d-](https://raw.githubusercontent.com/artur-scholz/view2d-django/master/docs/screenshot.png "screenshot")
 
 
 ## Purpose
@@ -38,7 +38,7 @@ Run the local django server:
 ```
 python view2d/manage.py runserver
 ```
-Enter the following URL with your browser:
+Navigate to the following URL with your browser:
 ```html
 http://localhost:8000/view2d/
 ```
